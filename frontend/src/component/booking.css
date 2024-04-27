@@ -1,0 +1,167 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+
+
+.first {
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+}
+
+.first, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.photo{
+    color: grey;
+   
+
+}
+
+.bookform{
+  width: 100%;
+	
+	margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 1.2rem 0;
+}
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+	margin: 0.5rem 0;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input,
+.textt
+ {
+
+	width: 80%;
+  min-height: 2em;
+}
+
+
+        option,select {           
+		width: 70%;
+        margin: 0 auto
+		}
+
+input, .textt {
+  border: none;
+  border-radius: 5px;
+  color: rgba(10, 10, 35, 0.7);
+}
+
+.submit-button {
+  display: block;
+  
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+
+  color: inherit;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .bookform {
+        width: 50%;
+    }
+  }
+
+
+  @media only screen and (min-width: 433px) {
+    .submit-button {
+        min-width: 181px;
+
+    }
+    
+  } */
+
+
+
+  /* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  } */
+  
+   .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-image: url('https://img.freepik.com/free-photo/person-paying-with-its-smartphone-wallet-app_23-2149167256.jpg?t=st=1713521546~exp=1713525146~hmac=2284a61a278aa56b7d328bdac607b32aa02929cc8d6bc38d92241032f897f11c&w=826'); */
+    margin-top:-33%;
+    background-color: #ababab;
+  } 
+  
+   
+  .bookform {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    margin-top: 40%;
+    
+  }
+  
+  .bookform label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .bookform input,
+  .bookform select,
+  .bookform textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bookform textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .photo {
+      align-items: flex-start;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .bookform {
+      width: 90%;
+    }
+  }
+  
